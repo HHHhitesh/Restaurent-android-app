@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txtlayoutheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android development with internsala"
+        android:layout_marginLeft="50dp"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:textColor="#009999"
+        android:layout_alignParentTop="true"/>
+    <TextView
+        android:id="@+id/txtlayoutsubheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_marginLeft="50dp"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:textStyle="italic"
+        android:textColor="#003333"
+        android:layout_below="@id/txtlayoutheader"
+        />
+
+    <ImageView
+        android:id="@+id/imghitesh"
+        android:layout_width="101dp"
+        android:layout_height="136dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/hitesh"
+        android:layout_centerInParent="true"/>
+    <Button
+        android:id="@+id/btnclickhere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="CLICK HERE"
+        android:background="#999999"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        />
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+
+        android:layout_margin="35dp"
+        android:inputType="text"
+        android:layout_below="@id/txtlayoutsubheader"/>
+</RelativeLayout>
